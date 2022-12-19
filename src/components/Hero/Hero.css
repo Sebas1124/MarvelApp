@@ -1,0 +1,23 @@
+
+.Card {
+    margin-left: 3rem;
+    margin-top: 3rem;
+    background: rgba(239, 230, 230, 0.42);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+    border: 1px solid rgba(239, 230, 230, 0.13);
+}
+
+.nextui-c-eUuHzx-gwPKeA-status-primary {
+    background: #EB1861;
+}
+
+@media ( max-width: 350px ) {
+    .Card {
+        margin-left: 0;
+        margin-top: 0;
+        height: 500px;
+    }
+}
